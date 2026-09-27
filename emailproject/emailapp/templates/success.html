@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Email Sending</title>
+    </head>
+    <body>
+        
+        <h1>Email verified</h1>
+        {% if messages %}
+            {% for i in messages %}
+                 {{i}}
+            {% endfor %}
+        {% endif %}
+
+    </body>
+</html>
